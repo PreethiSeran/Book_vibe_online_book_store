@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 250 100% 98%;
+    --foreground: 240 10% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 20%;
+
+    --primary: 270 60% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 50% 90%;
+    --secondary-foreground: 240 10% 20%;
+
+    --muted: 220 20% 95%;
+    --muted-foreground: 240 5% 50%;
+
+    --accent: 340 80% 75%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 270 60% 65%;
+
+    --radius: 1rem;
+
+    /* Mood colors */
+    --mood-happy: 45 100% 75%;
+    --mood-sad: 215 70% 80%;
+    --mood-romantic: 340 80% 85%;
+    --mood-adventurous: 160 70% 75%;
+    --mood-calm: 210 60% 85%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(270, 60%, 90%) 0%, hsl(210, 60%, 90%) 50%, hsl(340, 60%, 90%) 100%);
+    --gradient-happy: linear-gradient(135deg, hsl(45, 100%, 85%) 0%, hsl(35, 100%, 75%) 100%);
+    --gradient-sad: linear-gradient(135deg, hsl(215, 70%, 85%) 0%, hsl(215, 60%, 75%) 100%);
+    --gradient-romantic: linear-gradient(135deg, hsl(340, 80%, 90%) 0%, hsl(340, 70%, 80%) 100%);
+    --gradient-adventurous: linear-gradient(135deg, hsl(160, 70%, 85%) 0%, hsl(160, 60%, 70%) 100%);
+    --gradient-calm: linear-gradient(135deg, hsl(210, 60%, 90%) 0%, hsl(210, 50%, 80%) 100%);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.12);
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 240 15% 10%;
+    --foreground: 0 0% 95%;
+
+    --card: 240 15% 12%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 240 15% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 270 60% 70%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 10% 20%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 240 10% 20%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 340 70% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 240 10% 25%;
+    --input: 240 10% 25%;
+    --ring: 270 60% 70%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .gradient-happy {
+    background: var(--gradient-happy);
+  }
+
+  .gradient-sad {
+    background: var(--gradient-sad);
+  }
+
+  .gradient-romantic {
+    background: var(--gradient-romantic);
+  }
+
+  .gradient-adventurous {
+    background: var(--gradient-adventurous);
+  }
+
+  .gradient-calm {
+    background: var(--gradient-calm);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-hover {
+    box-shadow: var(--shadow-hover);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+}
