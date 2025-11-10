@@ -44,25 +44,3 @@ npm install
 
 # Step 4: Run the development server
 npm run dev
-
-
-📸 Preview
-
-Add screenshots or UI previews here
-
-💡 Inspiration
-
-This project was created to explore how user mood can influence reading preferences and to combine UI/UX design with frontend development using modern technologies.
-
-👩‍💻 Author
-
-Preethi S
-Final-Year B.Tech – Artificial Intelligence & Data Science
-UI/UX Designer | Frontend Developer | Design Enthusiast
-
-LinkedIn
- • Behance
- • Portfolio
-
-
----
