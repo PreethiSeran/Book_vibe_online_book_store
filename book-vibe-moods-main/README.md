@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 📚 BookVibe – Mood-Based Book Recommendation Website
 
-## Project info
+**BookVibe** is a modern and responsive web application that recommends books based on the user’s mood.  
+The project focuses on **UI/UX design principles**, color psychology, and user emotions to make reading suggestions feel more personalized and engaging.
 
-**URL**: https://lovable.dev/projects/38d3b6d6-12bb-41c4-b99b-d724acce1493
+---
 
-## How can I edit this code?
+## 🌟 Features
 
-There are several ways of editing your application.
+- 🎭 **Mood-Based Book Recommendations** – Suggests books depending on how you feel.  
+- 🎨 **Clean & Minimal UI** – Designed using Tailwind CSS and shadcn UI for an elegant look.  
+- ⚡ **Fast and Responsive** – Built with React + Vite for lightning-fast performance.  
+- 📱 **Fully Responsive Design** – Works smoothly across all devices.  
+- 💬 **Smooth Navigation** – Simple routing and transitions for an intuitive experience.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/38d3b6d6-12bb-41c4-b99b-d724acce1493) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend Framework:** React (with Vite)  
+- **Language:** TypeScript  
+- **UI Library:** shadcn/ui  
+- **Styling:** Tailwind CSS  
+- **Form Handling:** React Hook Form  
+- **Validation:** Zod  
+- **Routing:** React Router DOM  
+- **Icons:** Lucide React  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚙️ Setup & Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To run the project locally:
 
-Follow these steps:
+```bash
+# Step 1: Clone the repository
+git clone <your-repo-url>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 2: Navigate to the project folder
+cd bookvibe
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 3: Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Run the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📸 Preview
 
-**Use GitHub Codespaces**
+Add screenshots or UI previews here
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+💡 Inspiration
 
-## What technologies are used for this project?
+This project was created to explore how user mood can influence reading preferences and to combine UI/UX design with frontend development using modern technologies.
 
-This project is built with:
+👩‍💻 Author
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Preethi S
+Final-Year B.Tech – Artificial Intelligence & Data Science
+UI/UX Designer | Frontend Developer | Design Enthusiast
 
-## How can I deploy this project?
+LinkedIn
+ • Behance
+ • Portfolio
 
-Simply open [Lovable](https://lovable.dev/projects/38d3b6d6-12bb-41c4-b99b-d724acce1493) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
